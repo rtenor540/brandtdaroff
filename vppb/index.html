@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Vértigo posicional paroxístico benigno (VPPB) | Brandt-Daroff</title>
+  <meta name="description" content="Información clara sobre el vértigo posicional paroxístico benigno (VPPB): origen, diagnóstico, tratamiento, maniobra de Epley y ejercicios de Brandt-Daroff." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Vértigo posicional paroxístico benigno (VPPB)" />
+  <meta property="og:description" content="Origen, diagnóstico y tratamiento del VPPB, incluyendo maniobra de Epley y ejercicios de Brandt-Daroff." />
+  <meta property="og:type" content="article" />
+
+  <style>
+    :root{
+      --bg:#0b1220;
+      --card:#0f1a30;
+      --text:#e7eefc;
+      --muted:#b8c4e0;
+      --accent:#7aa2ff;
+      --accent2:#5de4c7;
+      --border: rgba(255,255,255,.12);
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius: 16px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      background: radial-gradient(1200px 700px at 30% 0%, rgba(122,162,255,.18), transparent 60%),
+                  radial-gradient(900px 500px at 80% 20%, rgba(93,228,199,.14), transparent 55%),
+                  var(--bg);
+      color:var(--text);
+      line-height:1.7;
+    }
+    a{color:var(--accent)}
+    .wrap{max-width: 980px; margin: 0 auto; padding: 28px 18px 64px;}
+    .topbar{
+      display:flex; align-items:center; justify-content:space-between;
+      gap:12px; margin-bottom:18px;
+      color:var(--muted);
+      font-size:14px;
+    }
+    .topbar a{color:var(--muted); text-decoration:none; border-bottom:1px dotted rgba(255,255,255,.25)}
+    .hero{
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+    }
+    .hero-img{
+      width:100%;
+      height: 260px;
+      object-fit: cover;
+      display:block;
+      background: rgba(255,255,255,.04);
+    }
+    .hero-body{padding: 22px 22px 8px;}
+    h1{
+      margin: 6px 0 10px;
+      line-height:1.15;
+      font-size: clamp(28px, 4vw, 44px);
+      letter-spacing: -0.02em;
+    }
+    .subtitle{color:var(--muted); margin:0 0 14px; max-width: 78ch;}
+    .content{
+      margin-top: 18px;
+      background: rgba(255,255,255,.03);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 22px;
+    }
+    .toc{
+      margin: 0 0 18px;
+      padding: 14px 14px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: rgba(0,0,0,.18);
+    }
+    .toc-title{
+      margin: 0 0 10px;
+      font-weight: 700;
+      letter-spacing: .02em;
+      color: var(--text);
+    }
+    .toc ul{
+      margin:0;
+      padding-left: 18px;
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 6px 18px;
+    }
+    .toc a{color: var(--muted); text-decoration:none}
+    .toc a:hover{color: var(--text); text-decoration: underline}
+    .section{
+      padding: 18px 0;
+      border-top: 1px solid rgba(255,255,255,.10);
+    }
+    .section:first-of-type{border-top:none; padding-top: 6px;}
+    h2{
+      margin: 0 0 10px;
+      font-size: clamp(18px, 2.2vw, 24px);
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+    h2 .badge{
+      display:inline-block;
+      font-size: 12px;
+      padding: 3px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(122,162,255,.35);
+      background: rgba(122,162,255,.12);
+      color: var(--text);
+      letter-spacing: .02em;
+      font-weight: 700;
+    }
+    p{margin: 0 0 12px; color: var(--text); max-width: 90ch;}
+    .muted{color: var(--muted)}
+    .list{
+      margin: 10px 0 0;
+      padding-left: 18px;
+      color: var(--text);
+      max-width: 90ch;
+    }
+    .list li{margin: 6px 0}
+    .callout{
+      margin-top: 12px;
+      padding: 14px 14px;
+      border-radius: 12px;
+      border: 1px solid rgba(93,228,199,.30);
+      background: rgba(93,228,199,.10);
+      color: var(--text);
+      max-width: 90ch;
+    }
+    .footer{
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 13px;
+      display:flex;
+      justify-content:space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .smallcaps{letter-spacing:.06em; text-transform:uppercase; font-size:12px}
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg:#f5f7fb; --card:#ffffff; --text:#0d1b2a; --muted:#44536a;
+        --border: rgba(0,0,0,.10); --shadow: 0 10px 25px rgba(0,0,0,.08);
+      }
+      body{background: radial-gradient(1200px 700px at 30% 0%, rgba(122,162,255,.18), transparent 60%),
+                  radial-gradient(900px 500px at 80% 20%, rgba(93,228,199,.14), transparent 55%),
+                  var(--bg);}
+      .toc{background: rgba(255,255,255,.65)}
+    }
+  </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["WebPage", "MedicalWebPage"],
+      "@id": "https://brandtdaroff.com/vppb/#webpage",
+      "url": "https://brandtdaroff.com/vppb/",
+      "name": "VPPB: vértigo posicional paroxístico benigno",
+      "inLanguage": "es-ES",
+      "about": { "@id": "https://brandtdaroff.com/vppb/#condition" },
+      "author": { "@id": "https://doctortenor.com/#physician" },
+      "reviewedBy": { "@id": "https://doctortenor.com/#physician" },
+      "datePublished": "2026-01-09",
+      "dateModified": "2026-01-09",
+      "isPartOf": { "@id": "https://brandtdaroff.com/#website" }
+    },
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://brandtdaroff.com/vppb/#condition",
+      "name": "Vértigo posicional paroxístico benigno (VPPB)",
+      "alternateName": ["VPPB", "BPPV", "Vértigo posicional benigno"],
+      "description": "Trastorno vestibular periférico caracterizado por episodios breves de vértigo desencadenados por cambios de posición de la cabeza, habitualmente debido al desplazamiento de otoconias hacia los canales semicirculares.",
+      "possibleTreatment": [
+        { "@type": "MedicalTherapy", "name": "Maniobras de reposicionamiento canalicular (p. ej., Epley)" },
+        { "@type": "MedicalTherapy", "name": "Ejercicios de habituación (Brandt-Daroff)" }
+      ]
+    },
+    {
+      "@type": "Physician",
+      "@id": "https://doctortenor.com/#physician",
+      "name": "Dr. Tenor",
+      "url": "https://doctortenor.com/"
+    }
+  ]
+}
+</script>
+
+</head>
+
+<body>
+  <div class="wrap">
+
+    <div class="topbar">
+      <div>Brandt-Daroff · Información para pacientes</div>
+      <div><a href="/">Volver a inicio</a></div>
+    </div>
+
+    <header class="hero">
+      <!--
+        IMAGEN DE CABECERA:
+        1) Sube una imagen a tu repo (por ejemplo en /assets/)
+        2) Cambia la ruta de abajo por la tuya: assets/vppb-header.jpg
+      -->
+      <img class="hero-img" src="vppb-header.jpg" alt="Ilustración relacionada con el oído interno y el equilibrio" />
+
+      <div class="hero-body">
+        <h1>Vértigo posicional paroxístico benigno</h1>
+        <div class="muted" style="margin-top: 12px; font-size: 14px;">
+  <strong>Autor:</strong>
+  <a href="https://doctortenor.com" target="_blank" rel="author noopener">
+    Dr. Tenor
+  </a>, especialista en Otorrinolaringología
+  <br />
+  <strong>Última revisión médica:</strong> 9 de enero de 2026
+</div>
+
+        <p class="subtitle">
+          El vértigo posicional paroxístico benigno (VPPB) es una alteración del sistema vestibular periférico que se manifiesta mediante episodios breves de sensación vertiginosa. Entre las distintas enfermedades del oído interno capaces de producir vértigo, el VPPB constituye con diferencia la etiología más habitual.
+        </p>
+      </div>
+    </header>
+
+    <main class="content">
+      <nav class="toc" aria-label="Tabla de contenidos">
+        <div class="toc-title">Contenido</div>
+        <ul>
+          <li><a href="#origen">Origen del problema</a></li>
+          <li><a href="#sintomas">Síntomas típicos</a></li>
+          <li><a href="#diagnostico">Cómo saber si se trata de un VPPB</a></li>
+          <li><a href="#tratamiento">Tratamiento</a></li>
+          <li><a href="#epley">La maniobra de Epley</a></li>
+          <li><a href="#brandtdaroff">Ejercicios de habituación de Brandt-Daroff</a></li>
+          <li><a href="#extra">Algunas ideas extra</a></li>
+        </ul>
+      </nav>
+
+      <section id="origen" class="section">
+        <h2><span class="badge">Sección</span> Origen del problema</h2>
+        <p>
+          El oído interno alberga el denominado laberinto posterior, donde se localizan los canales semicirculares, estructuras responsables de detectar los movimientos angulares de la cabeza. En su interior existen sistemas sensoriales que incluyen pequeños cristales de carbonato cálcico, llamados otoconias, cuya localización normal es la mácula del utrículo.
+        </p>
+        <p>
+          En determinadas circunstancias, algunas de estas otoconias pueden desprenderse y desplazarse hacia el interior de uno de los canales semicirculares. Cuando esto ocurre, los cambios de posición de la cabeza —especialmente los movimientos en el plano vertical, como incorporarse o tumbarse en la cama, mirar hacia arriba o inclinar la cabeza hacia abajo— provocan el movimiento anómalo de estas partículas dentro del canal afectado.
+        </p>
+        <p>
+          Este desplazamiento genera una estimulación inapropiada de las células sensoriales vestibulares, lo que da lugar a un episodio de vértigo. La sensación es típicamente intensa, con percepción de giro o volteo del entorno, de inicio brusco y duración breve, habitualmente inferior a un minuto. El vértigo reaparece de forma reproducible cada vez que se repite el movimiento desencadenante.
+        </p>
+      </section>
+<section id="sintomas" class="section">
+  <h2><span class="badge">Sección</span> Síntomas típicos</h2>
+
+  <p>
+    El vértigo posicional paroxístico benigno se caracteriza por la aparición de episodios de vértigo con una serie de rasgos clínicos muy definidos. Los síntomas más habituales son los siguientes:
+  </p>
+
+  <ul class="list">
+    <li>
+      <strong>Episodios breves de vértigo intenso</strong>, con sensación de giro o volteo del entorno, que suelen durar segundos y raramente más de un minuto.
+    </li>
+    <li>
+      <strong>Desencadenamiento claro por cambios de posición de la cabeza</strong>, especialmente al levantarse o tumbarse en la cama, girarse en decúbito, mirar hacia arriba o inclinar la cabeza hacia abajo.
+    </li>
+    <li>
+      <strong>Reproducción de los síntomas</strong> cada vez que se repite el movimiento desencadenante.
+    </li>
+    <li>
+      <strong>Ausencia de síntomas neurológicos asociados</strong>, como pérdida de fuerza, alteraciones del habla, visión doble o disminución del nivel de conciencia.
+    </li>
+    <li>
+      <strong>Náuseas y, en ocasiones, vómitos</strong>, especialmente durante los episodios más intensos.
+    </li>
+    <li>
+      <strong>Inestabilidad leve residual</strong> entre crisis en algunos pacientes, sin vértigo continuo.
+    </li>
+  </ul>
+
+  <p class="muted">
+    De forma característica, el VPPB no suele acompañarse de pérdida de audición ni de acúfenos. La presencia de estos síntomas orienta a otros trastornos del oído interno y requiere una valoración específica.
+  </p>
+</section>
+
+      <section id="diagnostico" class="section">
+        <h2><span class="badge">Sección</span> Cómo saber si se trata de un VPPB</h2>
+        <p>
+          Aunque el vértigo posicional paroxístico benigno suele producir síntomas muy característicos, el diagnóstico definitivo requiere una exploración clínica específica. La prueba más utilizada para confirmarlo es la maniobra de Dix-Hallpike, realizada por un profesional sanitario entrenado.
+        </p>
+        <p>
+          En pacientes con VPPB, esta maniobra desencadena de forma reproducible el episodio vertiginoso. Durante la exploración, el médico observa además la aparición de un nistagmo, es decir, un movimiento involuntario de los ojos, cuyas características (dirección, latencia y duración) son típicas de esta entidad y permiten identificar el canal semicircular afectado.
+        </p>
+      </section>
+
+      <section id="tratamiento" class="section">
+        <h2><span class="badge">Sección</span> Tratamiento</h2>
+        <p>
+          El vértigo posicional paroxístico benigno puede abordarse de distintas maneras, en función de la intensidad de los síntomas, su duración y el impacto en la calidad de vida. De forma general, existen tres estrategias terapéuticas principales:
+        </p>
+        <ul class="list">
+          <li><strong>Evolución espontánea:</strong> en un número significativo de casos, el VPPB puede resolverse de manera natural en el transcurso de días o semanas, sin necesidad de tratamiento específico.</li>
+          <li><strong>Maniobras de reposicionamiento canalicular:</strong> la maniobra de Epley es el procedimiento más utilizado. Mediante una secuencia controlada de movimientos de la cabeza y el cuerpo, se pretende devolver las otoconias desplazadas a su localización habitual en el utrículo, eliminando así el estímulo anómalo responsable del vértigo.</li>
+          <li><strong>Ejercicios de habituación domiciliarios:</strong> otra opción consiste en realizar en casa ejercicios específicos, como los ejercicios de Brandt-Daroff, cuyo objetivo es favorecer la adaptación del sistema vestibular y, en algunos casos, facilitar la resolución progresiva de los síntomas.</li>
+        </ul>
+      </section>
+
+      <section id="epley" class="section">
+        <h2><span class="badge">Sección</span> La maniobra de Epley</h2>
+        <p>
+          La maniobra de Epley es una técnica de reposicionamiento canalicular que se basa en una secuencia específica de movimientos de la cabeza y del tronco. Su objetivo es guiar las otoconias desplazadas a través del canal semicircular afectado hasta devolverlas al utrículo, donde dejan de provocar estímulos vestibulares anómalos.
+        </p>
+        <p>
+          Para que el procedimiento sea eficaz, es imprescindible haber confirmado previamente el diagnóstico de VPPB mediante la maniobra de Dix-Hallpike, así como haber identificado con precisión el oído y el canal semicircular implicados. Esta información se obtiene a partir del nistagmo posicional que aparece durante la exploración y cuya interpretación requiere experiencia clínica.
+        </p>
+        <p>
+          Por este motivo, la maniobra de Epley suele ser realizada por un otorrinolaringólogo u otro profesional sanitario con formación específica en patología vestibular. Su tasa de éxito es elevada: en un porcentaje muy alto de pacientes, la realización correcta de la maniobra consigue la resolución completa de los síntomas, a menudo desde la primera sesión.
+        </p>
+      </section>
+
+      <section id="brandtdaroff" class="section">
+        <h2><span class="badge">Sección</span> Ejercicios de habituación de Brandt-Daroff</h2>
+        <p>
+          Los ejercicios de Brandt-Daroff son una modalidad de tratamiento basada en la habituación vestibular, indicados en determinadas circunstancias, como cuando no es posible realizar maniobras de reposicionamiento canalicular o como alternativa terapéutica en algunos pacientes.
+        </p>
+        <p>
+          Se trata de ejercicios que el propio paciente puede llevar a cabo en su domicilio y que pueden aplicarse con independencia del oído o del canal semicircular afectado. Su eficacia es elevada, aunque suele ser inferior a la de las maniobras de reposicionamiento realizadas en consulta.
+        </p>
+        <p>
+          Como principal inconveniente, requieren un grado alto de adherencia, ya que deben repetirse varias veces al día durante varios días consecutivos para obtener resultados. Al igual que con el resto de opciones terapéuticas, es imprescindible que el diagnóstico de VPPB haya sido previamente confirmado, ya que su utilización en otros tipos de vértigo puede no resultar efectiva.
+        </p>
+      </section>
+
+      <section id="extra" class="section">
+        <h2><span class="badge">Sección</span> Algunas ideas extra</h2>
+        <p>
+          En la actualidad, el vértigo posicional paroxístico benigno no dispone de un tratamiento farmacológico específico. Ningún medicamento es capaz de recolocar las otoconias desplazadas ni de prevenir de forma eficaz la aparición de nuevos episodios. Los fármacos utilizados en otros tipos de vértigo no actúan sobre el mecanismo causal del VPPB.
+        </p>
+        <p>
+          De manera general, y también en el caso concreto del VPPB, la práctica regular de actividad física se asocia a un mejor funcionamiento del sistema del equilibrio y puede contribuir a reducir el riesgo de presentar este trastorno.
+        </p>
+        <p>
+          A pesar de tratarse de una entidad muy frecuente, con un diagnóstico relativamente sencillo y un tratamiento eficaz y seguro, el VPPB sigue siendo poco conocido por la población general, lo que retrasa en muchos casos su correcta identificación y manejo.
+        </p>
+        <p>
+          El origen exacto del VPPB no siempre puede determinarse. En algunos pacientes se relaciona con traumatismos craneales, aunque en muchos casos aparece sin una causa clara. Haber presentado un episodio previo aumenta la probabilidad de recurrencias a lo largo del tiempo.
+        </p>
+
+        <div class="callout">
+          <strong>Recomendación:</strong>
+          Si sospechas que puedes padecer un VPPB, es recomendable consultar con un especialista en Otorrinolaringología, quien podrá realizar una valoración adecuada y aplicar el tratamiento más indicado en cada caso.
+        </div>
+      </section>
+
+      <div class="footer" role="contentinfo">
+        <div><span class="smallcaps">Aviso</span> · Contenido informativo, no sustituye la valoración médica.</div>
+        <div><a href="#top" class="muted" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Subir</a></div>
+      </div>
+    </main>
+
+  </div>
+</body>
+</html>
